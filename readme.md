@@ -1,7 +1,7 @@
-# briefingly
+# Briefingly
 
 An OpenAI article summarizer application -
-Simplify your reading with Summarize, an open-source article summarizer that transforms lengthy articles into clear and concise summarizes
+Simplify your reading with Briefingly, an open-source article summarizer that transforms lengthy articles into clear and concise summarizes.
 
 https://briefingly.netlify.app/
 
