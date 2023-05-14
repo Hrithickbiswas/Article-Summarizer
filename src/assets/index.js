@@ -1,7 +1,7 @@
 import linkIcon from './link.svg'
 import loader from './loader.svg'
 import copy from './copy.svg'
-import logo from './briefly_logo.png'
+import logo from './briefify.png'
 import tick from './tick.svg'
 
 export {

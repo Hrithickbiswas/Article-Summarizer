@@ -1,9 +1,9 @@
-# Briefingly
+# briefify
 
 An OpenAI article summarizer application -
-Simplify your reading with Briefingly, an open-source article summarizer that transforms lengthy articles into clear and concise summarizes.
+Simplify your reading with briefify, an open-source article summarizer that transforms lengthy articles into clear and concise summaries.
 
-https://briefingly.netlify.app/
+https://briefify.netlify.app/
 
 ### Notes
 - Create a .env file and add it in the .gitignore. Get the Key from [RapidAPI Article Summarizer API](https://rapidapi.com/restyler/api/article-extractor-and-summarizer/)
