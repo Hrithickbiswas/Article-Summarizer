@@ -1,0 +1,60 @@
+<-- this creates a react application/folder through vite -->
+npm create vite@latest
+√ Project name: ... ./
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+<-- install dependencies -->
+
+npm install @reduxjs/toolkit
+npm install react-redux
+
+//installing tailwind 
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+<-- If you want you can take assets folder from jsmastery zip file else create yours own. remember to drag and drop favico in public folder. And even copy the App.css from github of his-->
+
+<-- the list of main folders are -->
+node_modules
+public
+src>assets & main.jsx
+.gitignore
+index.html
+package-lock.json
+package.json
+vite.config.js
+
+<-- tailwind.config.js -->
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+// to test run
+npm run dev
+
+// mostly everything looks set
+
+create a folder named components
+subfolders as-- Demo.jsx & Hero.jsx
+
+in app.jsx 
+import hero and demo
+also import './App.css';
+create tag main then subdiv tags
+
+// if you want to deploy on netlify
+
+npm run build
+
+// website names
+Briefingly.com 5,500/yr
